@@ -1,0 +1,48 @@
+.maininfotext {
+  font-size: 30;
+}
+
+.Directions {
+  margin-top: 5% !important;
+}
+@media only screen and (max-width: 934px) {
+  #contact {
+    background: #747775;
+    width: 100%;
+  }
+  .maininfotext {
+    font-size: 20;
+  }
+  .Directions {
+    margin-top: 45% !important;
+  }
+  .Email {
+    margin-top: 1%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .maininfotext {
+    font-size: 20;
+  }
+  .Directions {
+    margin-top: 45% !important;
+  }
+  .Email {
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .maininfotext {
+    font-size: 20;
+  }
+  .Directions {
+    margin-top: 85% !important;
+  }
+  .Email {
+    margin-top: 1%;
+  }
+  .mainbox {
+    margin-top: 25%;
+  }
+}

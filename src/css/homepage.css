@@ -1,0 +1,37 @@
+.main {
+  background-repeat: no-repeat;
+  /* Specify the background image */
+}
+.introtext {
+  font-size: 80px;
+  margin-top: 150px;
+}
+.orderbtn {
+  width: 500px;
+  height: 150px !important;
+}
+.maintext {
+  transition-delay: 200ms;
+  transition-duration: 800ms;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+}
+
+@media only screen and (max-width: 780px) {
+  .introtext {
+    font-size: 50px;
+    margin-left: 75px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .introtext {
+    font-size: 40px;
+    margin-top: 75px;
+    margin-left: 25px;
+  }
+
+  .orderbtn {
+    width: 300px;
+    height: 100px !important;
+  }
+}
