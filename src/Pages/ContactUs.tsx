@@ -4,7 +4,7 @@ import "../css/contact.css";
 
 const ContactUs = () => {
   return (
-    <Box bg="#747775" height="100%" className="mainbox">
+    <Box bg="#567219" height="60vh" className="mainbox">
       <SimpleGrid columns={1} spacing={10}>
         <Center>
           <Box height="80px">

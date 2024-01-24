@@ -18,7 +18,7 @@ const Testimonials = () => {
             <div>
               <div className="myCarousel">
                 <h3>lorem ipsum 1</h3>
-                <Text display="flex">
+                <Text className="mt-5" display="flex">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
                   nibh ante. Nam pellentesque nunc, at mattis ante suscipit sit
                   amet. Phasellus placerat, quam eu condimentum pretium, turpis
@@ -35,7 +35,7 @@ const Testimonials = () => {
             <div>
               <div className="myCarousel">
                 <h3>lorem ipsum 2</h3>
-                <Text display="flex">
+                <Text className="mt-5" display="flex">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
                   nibh ante. Nam pellentesque est nunc, at mattis ante suscipit
                   sit amet. Phasellus placerat, quam eu condimentum pretium,
@@ -53,7 +53,7 @@ const Testimonials = () => {
             <div>
               <div className="myCarousel">
                 <h3>lorem ipsum 3</h3>
-                <Text display="flex">
+                <Text className="mt-5" display="flex">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
                   nibh ante. Nam pellentesque est nunc, at mattis ante suscipit
                   sit amet. Phasellus placerat, quam eu condimentum pretium,

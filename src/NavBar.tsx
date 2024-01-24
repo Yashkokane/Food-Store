@@ -1,11 +1,14 @@
-import "./css/navbar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "./css/navbar.css";
 
 const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar
+      style={{ backgroundColor: "#fc9670" }}
+      expand="lg"
+      className="bgcolor">
       <Container style={{ marginLeft: "38%" }}>
         <Navbar.Brand href="/#">Food-Hub</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

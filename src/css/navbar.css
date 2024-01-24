@@ -1,8 +1,7 @@
-.bg-body-tertiary {
+.bgcolor {
   width: 99vw;
   position: sticky;
   overflow: hidden;
-  background-color: #333;
   position: fixed !important;
   top: 0;
   z-index: 999;
